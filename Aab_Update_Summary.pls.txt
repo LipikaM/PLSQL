@@ -3,8 +3,9 @@ CREATE OR REPLACE PROCEDURE TEDOWNER.Aab_Update_Summary IS
 --Modification History
 -- ---------------------------------------------------------------------------------------------------------------
 --Date           :  18/06/2012
---Author         :  TEDS BAU (Mayuree Yerawar)
---Purpose        :  Finance table changes updation, updating retention period to 38
+--Author         :  Lipika Majumdar
+--Purpose        :  This Plsql procedure will maintain and manage the Active User Base on rolling 
+                 :  period to maintain a consistent and up to date user base.
 --################################################################################################################
 
 Counter           NUMBER := 0;
